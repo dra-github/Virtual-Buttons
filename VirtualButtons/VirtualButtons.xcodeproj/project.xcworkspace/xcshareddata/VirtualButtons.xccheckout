@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>91EAD134-F835-47B1-9520-CE72B167C352</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VirtualButtons</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8EC978B2-3A1A-46D3-9FE3-849296060CDD</key>
+		<string>https://github.com/ardrajan/Virtual-Buttons.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VirtualButtons/VirtualButtons.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8EC978B2-3A1A-46D3-9FE3-849296060CDD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ardrajan/Virtual-Buttons.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8EC978B2-3A1A-46D3-9FE3-849296060CDD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8EC978B2-3A1A-46D3-9FE3-849296060CDD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Virtual Buttons</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0B9E5E187DEBA0004917CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0B9E5D187DEBA0004917CA /* Foundation.framework */; };
+		DD0B9E60187DEBA0004917CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0B9E5F187DEBA0004917CA /* CoreGraphics.framework */; };
+		DD0B9E62187DEBA0004917CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0B9E61187DEBA0004917CA /* UIKit.framework */; };
+		DD0B9E68187DEBA0004917CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD0B9E66187DEBA0004917CA /* InfoPlist.strings */; };
+		DD0B9E6A187DEBA0004917CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0B9E69187DEBA0004917CA /* main.m */; };
+		DD0B9E6E187DEBA0004917CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0B9E6D187DEBA0004917CA /* AppDelegate.m */; };
+		DD0B9E71187DEBA0004917CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0B9E6F187DEBA0004917CA /* Main.storyboard */; };
+		DD0B9E74187DEBA0004917CA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0B9E73187DEBA0004917CA /* FirstViewController.m */; };
+		DD0B9E77187DEBA0004917CA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0B9E76187DEBA0004917CA /* SecondViewController.m */; };
+		DD0B9E79187DEBA0004917CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0B9E78187DEBA0004917CA /* Images.xcassets */; };
+		DD0B9E80187DEBA0004917CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0B9E7F187DEBA0004917CA /* XCTest.framework */; };
+		DD0B9E81187DEBA0004917CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0B9E5D187DEBA0004917CA /* Foundation.framework */; };
+		DD0B9E82187DEBA0004917CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0B9E61187DEBA0004917CA /* UIKit.framework */; };
+		DD0B9E8A187DEBA0004917CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD0B9E88187DEBA0004917CA /* InfoPlist.strings */; };
+		DD0B9E8C187DEBA0004917CA /* VirtualButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0B9E8B187DEBA0004917CA /* VirtualButtonsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD0B9E83187DEBA0004917CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD0B9E52187DEBA0004917CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD0B9E59187DEBA0004917CA;
+			remoteInfo = VirtualButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD0B9E5A187DEBA0004917CA /* VirtualButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0B9E5D187DEBA0004917CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD0B9E5F187DEBA0004917CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD0B9E61187DEBA0004917CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD0B9E65187DEBA0004917CA /* VirtualButtons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VirtualButtons-Info.plist"; sourceTree = "<group>"; };
+		DD0B9E67187DEBA0004917CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD0B9E69187DEBA0004917CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD0B9E6B187DEBA0004917CA /* VirtualButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VirtualButtons-Prefix.pch"; sourceTree = "<group>"; };
+		DD0B9E6C187DEBA0004917CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD0B9E6D187DEBA0004917CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD0B9E70187DEBA0004917CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD0B9E72187DEBA0004917CA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DD0B9E73187DEBA0004917CA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DD0B9E75187DEBA0004917CA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DD0B9E76187DEBA0004917CA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DD0B9E78187DEBA0004917CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD0B9E7E187DEBA0004917CA /* VirtualButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0B9E7F187DEBA0004917CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DD0B9E87187DEBA0004917CA /* VirtualButtonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VirtualButtonsTests-Info.plist"; sourceTree = "<group>"; };
+		DD0B9E89187DEBA0004917CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD0B9E8B187DEBA0004917CA /* VirtualButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualButtonsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD0B9E57187DEBA0004917CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0B9E60187DEBA0004917CA /* CoreGraphics.framework in Frameworks */,
+				DD0B9E62187DEBA0004917CA /* UIKit.framework in Frameworks */,
+				DD0B9E5E187DEBA0004917CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0B9E7B187DEBA0004917CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0B9E80187DEBA0004917CA /* XCTest.framework in Frameworks */,
+				DD0B9E82187DEBA0004917CA /* UIKit.framework in Frameworks */,
+				DD0B9E81187DEBA0004917CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD0B9E51187DEBA0004917CA = {
+			isa = PBXGroup;
+			children = (
+				DD0B9E63187DEBA0004917CA /* VirtualButtons */,
+				DD0B9E85187DEBA0004917CA /* VirtualButtonsTests */,
+				DD0B9E5C187DEBA0004917CA /* Frameworks */,
+				DD0B9E5B187DEBA0004917CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD0B9E5B187DEBA0004917CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD0B9E5A187DEBA0004917CA /* VirtualButtons.app */,
+				DD0B9E7E187DEBA0004917CA /* VirtualButtonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD0B9E5C187DEBA0004917CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD0B9E5D187DEBA0004917CA /* Foundation.framework */,
+				DD0B9E5F187DEBA0004917CA /* CoreGraphics.framework */,
+				DD0B9E61187DEBA0004917CA /* UIKit.framework */,
+				DD0B9E7F187DEBA0004917CA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD0B9E63187DEBA0004917CA /* VirtualButtons */ = {
+			isa = PBXGroup;
+			children = (
+				DD0B9E97187DEBEB004917CA /* Classes */,
+				DD0B9E96187DEBE1004917CA /* Assets */,
+				DD0B9E95187DEBC5004917CA /* ViewControllers */,
+				DD0B9E6C187DEBA0004917CA /* AppDelegate.h */,
+				DD0B9E6D187DEBA0004917CA /* AppDelegate.m */,
+				DD0B9E6F187DEBA0004917CA /* Main.storyboard */,
+				DD0B9E78187DEBA0004917CA /* Images.xcassets */,
+				DD0B9E64187DEBA0004917CA /* Supporting Files */,
+			);
+			path = VirtualButtons;
+			sourceTree = "<group>";
+		};
+		DD0B9E64187DEBA0004917CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD0B9E65187DEBA0004917CA /* VirtualButtons-Info.plist */,
+				DD0B9E66187DEBA0004917CA /* InfoPlist.strings */,
+				DD0B9E69187DEBA0004917CA /* main.m */,
+				DD0B9E6B187DEBA0004917CA /* VirtualButtons-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD0B9E85187DEBA0004917CA /* VirtualButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD0B9E8B187DEBA0004917CA /* VirtualButtonsTests.m */,
+				DD0B9E86187DEBA0004917CA /* Supporting Files */,
+			);
+			path = VirtualButtonsTests;
+			sourceTree = "<group>";
+		};
+		DD0B9E86187DEBA0004917CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD0B9E87187DEBA0004917CA /* VirtualButtonsTests-Info.plist */,
+				DD0B9E88187DEBA0004917CA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD0B9E95187DEBC5004917CA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD0B9E72187DEBA0004917CA /* FirstViewController.h */,
+				DD0B9E73187DEBA0004917CA /* FirstViewController.m */,
+				DD0B9E75187DEBA0004917CA /* SecondViewController.h */,
+				DD0B9E76187DEBA0004917CA /* SecondViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DD0B9E96187DEBE1004917CA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		DD0B9E97187DEBEB004917CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD0B9E59187DEBA0004917CA /* VirtualButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0B9E8F187DEBA0004917CA /* Build configuration list for PBXNativeTarget "VirtualButtons" */;
+			buildPhases = (
+				DD0B9E56187DEBA0004917CA /* Sources */,
+				DD0B9E57187DEBA0004917CA /* Frameworks */,
+				DD0B9E58187DEBA0004917CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualButtons;
+			productName = VirtualButtons;
+			productReference = DD0B9E5A187DEBA0004917CA /* VirtualButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD0B9E7D187DEBA0004917CA /* VirtualButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0B9E92187DEBA0004917CA /* Build configuration list for PBXNativeTarget "VirtualButtonsTests" */;
+			buildPhases = (
+				DD0B9E7A187DEBA0004917CA /* Sources */,
+				DD0B9E7B187DEBA0004917CA /* Frameworks */,
+				DD0B9E7C187DEBA0004917CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0B9E84187DEBA0004917CA /* PBXTargetDependency */,
+			);
+			name = VirtualButtonsTests;
+			productName = VirtualButtonsTests;
+			productReference = DD0B9E7E187DEBA0004917CA /* VirtualButtonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD0B9E52187DEBA0004917CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rajan Ayakkad";
+				TargetAttributes = {
+					DD0B9E7D187DEBA0004917CA = {
+						TestTargetID = DD0B9E59187DEBA0004917CA;
+					};
+				};
+			};
+			buildConfigurationList = DD0B9E55187DEBA0004917CA /* Build configuration list for PBXProject "VirtualButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD0B9E51187DEBA0004917CA;
+			productRefGroup = DD0B9E5B187DEBA0004917CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD0B9E59187DEBA0004917CA /* VirtualButtons */,
+				DD0B9E7D187DEBA0004917CA /* VirtualButtonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD0B9E58187DEBA0004917CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0B9E79187DEBA0004917CA /* Images.xcassets in Resources */,
+				DD0B9E68187DEBA0004917CA /* InfoPlist.strings in Resources */,
+				DD0B9E71187DEBA0004917CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0B9E7C187DEBA0004917CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0B9E8A187DEBA0004917CA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD0B9E56187DEBA0004917CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0B9E77187DEBA0004917CA /* SecondViewController.m in Sources */,
+				DD0B9E6E187DEBA0004917CA /* AppDelegate.m in Sources */,
+				DD0B9E74187DEBA0004917CA /* FirstViewController.m in Sources */,
+				DD0B9E6A187DEBA0004917CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0B9E7A187DEBA0004917CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0B9E8C187DEBA0004917CA /* VirtualButtonsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD0B9E84187DEBA0004917CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD0B9E59187DEBA0004917CA /* VirtualButtons */;
+			targetProxy = DD0B9E83187DEBA0004917CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD0B9E66187DEBA0004917CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0B9E67187DEBA0004917CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD0B9E6F187DEBA0004917CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0B9E70187DEBA0004917CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD0B9E88187DEBA0004917CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0B9E89187DEBA0004917CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD0B9E8D187DEBA0004917CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DD0B9E8E187DEBA0004917CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD0B9E90187DEBA0004917CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VirtualButtons/VirtualButtons-Prefix.pch";
+				INFOPLIST_FILE = "VirtualButtons/VirtualButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD0B9E91187DEBA0004917CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VirtualButtons/VirtualButtons-Prefix.pch";
+				INFOPLIST_FILE = "VirtualButtons/VirtualButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD0B9E93187DEBA0004917CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VirtualButtons.app/VirtualButtons";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VirtualButtons/VirtualButtons-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VirtualButtonsTests/VirtualButtonsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DD0B9E94187DEBA0004917CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VirtualButtons.app/VirtualButtons";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VirtualButtons/VirtualButtons-Prefix.pch";
+				INFOPLIST_FILE = "VirtualButtonsTests/VirtualButtonsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD0B9E55187DEBA0004917CA /* Build configuration list for PBXProject "VirtualButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0B9E8D187DEBA0004917CA /* Debug */,
+				DD0B9E8E187DEBA0004917CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0B9E8F187DEBA0004917CA /* Build configuration list for PBXNativeTarget "VirtualButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0B9E90187DEBA0004917CA /* Debug */,
+				DD0B9E91187DEBA0004917CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD0B9E92187DEBA0004917CA /* Build configuration list for PBXNativeTarget "VirtualButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0B9E93187DEBA0004917CA /* Debug */,
+				DD0B9E94187DEBA0004917CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD0B9E52187DEBA0004917CA /* Project object */;
+}
